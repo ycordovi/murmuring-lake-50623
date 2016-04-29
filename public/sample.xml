@@ -1,116 +1,177 @@
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+﻿<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <ns2:requestExportDataResponse xmlns:ns2="http://export.its.dhl.com/">
       <return>
         <dataProviderDetails>
-          <dataProviderType>GSM_SENSOR</dataProviderType>
-          <gsmSensorDetails>
-            <gsmHardwareVersion>0.5</gsmHardwareVersion>
-            <gsmSoftwareVersion>1.1.0.7</gsmSoftwareVersion>
-          </gsmSensorDetails>
-          <rfidReaderHardware />
-          <rfidReaderSoftware />
-          <rfidSensorDetails />
+          <dataProviderType>RFID_SENSOR</dataProviderType>
+          <gsmSensorDetails />
+          <rfidReaderHardware>
+            <mobileComputerManufacturer>Motorola</mobileComputerManufacturer>
+            <mobileComputerSerialNumber>14052521402924</mobileComputerSerialNumber>
+            <mobileComputerType>MC65</mobileComputerType>
+            <rfidAntennaFirmwareVersion>2.6.0.240</rfidAntennaFirmwareVersion>
+            <rfidAntennaHardwareVersion>Ratel</rfidAntennaHardwareVersion>
+            <rfidAntennaManufacturer>TSL UK Ltd.</rfidAntennaManufacturer>
+            <rfidAntennaRegion>ETSI</rfidAntennaRegion>
+            <rfidAntennaSerialNumber>1119-01-003146</rfidAntennaSerialNumber>
+            <rfidAntennaType>ETSI</rfidAntennaType>
+            <rfidReaderType>DHL Mobile Reader</rfidReaderType>
+          </rfidReaderHardware>
+          <rfidReaderSoftware>
+            <applicationType>DHL Mobile Reader Software</applicationType>
+            <softwareVersion>2.2.0.0</softwareVersion>
+          </rfidReaderSoftware>
+          <rfidSensorDetails>
+            <rfidSensorFirmwareVersion>1.6</rfidSensorFirmwareVersion>
+            <rfidSensorHardwareVersion>2.3</rfidSensorHardwareVersion>
+            <rfidSensorManufacturer>CAEN</rfidSensorManufacturer>
+            <rfidSensorType>DHL SmartSensor RFID</rfidSensorType>
+          </rfidSensorDetails>
         </dataProviderDetails>
-        <id>540358</id>
+        <id>564844</id>
         <measurements>
           <alertData>
-            <humidityAlerts>
-              <id>203752</id>
-              <number>3</number>
-              <time>2016-03-03T00:32:00+01:00</time>
-              <type>HUMIDITY</type>
-              <value>74.127716</value>
-            </humidityAlerts>
-            <humidityAlerts>
-              <id>203753</id>
-              <number>4</number>
-              <time>2016-03-03T00:32:00+01:00</time>
-              <type>HUMIDITY</type>
-              <value>74.127716</value>
-            </humidityAlerts>
+            <memoryAlerts>
+              <id>1897552</id>
+              <number>0</number>
+              <seen>0</seen>
+              <type>MEMORY</type>
+            </memoryAlerts>
             <powerAlerts>
-              <id>203754</id>
-              <number>1</number>
-              <time>2016-03-03T00:32:00+01:00</time>
+              <id>1905742</id>
+              <number>0</number>
+              <seen>0</seen>
               <type>POWER</type>
-              <value>5.138755</value>
             </powerAlerts>
             <temperatureAlerts>
-              <id>203750</id>
-              <number>2</number>
-              <time>2016-03-03T00:32:00+01:00</time>
+              <id>17422108</id>
+              <number>0</number>
+              <seen>0</seen>
               <type>TEMPERATURE</type>
-              <value>30.3125</value>
+              <value>-10.0</value>
+              <above>false</above>
+              <count>0</count>
+              <inRow>false</inRow>
             </temperatureAlerts>
             <temperatureAlerts>
-              <id>203751</id>
-              <number>3</number>
-              <time>2016-03-03T00:32:00+01:00</time>
+              <id>17422109</id>
+              <number>1</number>
+              <seen>0</seen>
               <type>TEMPERATURE</type>
-              <value>30.3125</value>
+              <value>0.0</value>
+              <above>false</above>
+              <count>0</count>
+              <inRow>false</inRow>
+            </temperatureAlerts>
+            <temperatureAlerts>
+              <id>17422110</id>
+              <number>2</number>
+              <seen>0</seen>
+              <type>TEMPERATURE</type>
+              <value>2.0</value>
+              <above>false</above>
+              <count>0</count>
+              <inRow>false</inRow>
+            </temperatureAlerts>
+            <temperatureAlerts>
+              <id>17422111</id>
+              <number>3</number>
+              <seen>0</seen>
+              <type>TEMPERATURE</type>
+              <value>30.0</value>
+              <above>false</above>
+              <count>0</count>
+              <inRow>false</inRow>
+            </temperatureAlerts>
+            <temperatureAlerts>
+              <id>17422112</id>
+              <number>4</number>
+              <seen>0</seen>
+              <type>TEMPERATURE</type>
+              <value>40.0</value>
+              <above>false</above>
+              <count>0</count>
+              <inRow>false</inRow>
+            </temperatureAlerts>
+            <temperatureAlerts>
+              <id>17422113</id>
+              <number>5</number>
+              <seen>0</seen>
+              <type>TEMPERATURE</type>
+              <value>70.0</value>
+              <above>false</above>
+              <count>0</count>
+              <inRow>false</inRow>
             </temperatureAlerts>
           </alertData>
-          <geoPositions>
-            <cellId>32362</cellId>
-            <gpsAltitude>0</gpsAltitude>
-            <gpsHdop>0</gpsHdop>
-            <gpsPdop>0</gpsPdop>
-            <gpsSatellite>0</gpsSatellite>
-            <gsmLac>13092</gsmLac>
-            <gsmMcc>724</gsmMcc>
-            <gsmMnc>2</gsmMnc>
-            <id>33185438</id>
-            <latitude>-3.146201</latitude>
-            <longitude>-59.997419</longitude>
-            <time>2016-03-03T00:32:00+01:00</time>
-          </geoPositions>
-          <histogramData />
+          <bizSteps>
+            <bizStepId>1</bizStepId>
+            <id>1918269</id>
+            <location>DGF BRU</location>
+            <time>2016-03-21T18:46:27+01:00</time>
+          </bizSteps>
+          <histogramData>
+            <temperatureHistogram>
+              <count>0</count>
+              <entryId>17524704</entryId>
+              <interval>10</interval>
+              <value>-10.0</value>
+            </temperatureHistogram>
+            <temperatureHistogram>
+              <count>0</count>
+              <entryId>17524705</entryId>
+              <interval>10</interval>
+              <value>0.0</value>
+            </temperatureHistogram>
+            <temperatureHistogram>
+              <count>0</count>
+              <entryId>17524706</entryId>
+              <interval>10</interval>
+              <value>2.0</value>
+            </temperatureHistogram>
+            <temperatureHistogram>
+              <count>1</count>
+              <entryId>17524707</entryId>
+              <interval>10</interval>
+              <value>30.0</value>
+            </temperatureHistogram>
+            <temperatureHistogram>
+              <count>0</count>
+              <entryId>17524708</entryId>
+              <interval>10</interval>
+              <value>40.0</value>
+            </temperatureHistogram>
+            <temperatureHistogram>
+              <count>0</count>
+              <entryId>17524709</entryId>
+              <interval>10</interval>
+              <value>70.0</value>
+            </temperatureHistogram>
+          </histogramData>
           <historyData>
-            <humidityHistory>
-              <entryId>33185429</entryId>
-              <time>2016-03-03T00:02:00+01:00</time>
-              <value>72.97568</value>
-            </humidityHistory>
-            <humidityHistory>
-              <entryId>33185432</entryId>
-              <time>2016-03-03T00:17:00+01:00</time>
-              <value>73.47159</value>
-            </humidityHistory>
-            <humidityHistory>
-              <entryId>33185435</entryId>
-              <time>2016-03-03T00:32:00+01:00</time>
-              <value>74.127716</value>
-            </humidityHistory>
             <temperatureHistory>
-              <entryId>33185428</entryId>
-              <time>2016-03-03T00:02:00+01:00</time>
-              <value>23.9375</value>
+              <entryId>141600190</entryId>
+              <seen>false</seen>
+              <time>2016-03-21T18:48:46+01:00</time>
+              <maxTemp>0.0</maxTemp>
+              <minTemp>19.375</minTemp>
             </temperatureHistory>
             <temperatureHistory>
-              <entryId>33185431</entryId>
-              <time>2016-03-03T00:17:00+01:00</time>
-              <value>31.6875</value>
-            </temperatureHistory>
-            <temperatureHistory>
-              <entryId>33185434</entryId>
-              <time>2016-03-03T00:32:00+01:00</time>
-              <value>20.3125</value>
+              <entryId>141600190</entryId>
+              <seen>false</seen>
+              <time>2016-03-21T18:58:46+01:00</time>
+              <maxTemp>0.0</maxTemp>
+              <minTemp>19.425</minTemp>
             </temperatureHistory>
           </historyData>
         </measurements>
-        <nextExportId>550357</nextExportId>
+        <nextExportId>564845</nextExportId>
         <shipmentDetails>
-          <companyName>LCX-Real Time</companyName>
-          <destination>BRMAO</destination>
+          <companyName>Brussels</companyName>
           <groupName>Thermonet</groupName>
-          <modeOfTransportation>Ocean</modeOfTransportation>
-          <origin>IEDUB</origin>
-          <packageId>TRLU9621264</packageId>
-          <sensorId>355504069988402</sensorId>
-          <shipmentId>972278</shipmentId>
-          <shipmentNo>PMR-0203906</shipmentNo>
-          <waybill>DUI0143130</waybill>
+          <sensorId>300EFE2F94D0FB000000D24F</sensorId>
+          <shipmentId>1035231</shipmentId>
+          <shipmentNo>H6UY3285   +Y0001+</shipmentNo>
         </shipmentDetails>
       </return>
     </ns2:requestExportDataResponse>
