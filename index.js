@@ -16,10 +16,16 @@ app.get('/', function(request, response) {
   
 });
 
-app.post('/sample', function(request, response) {
+app.post('/rfisample', function(request, response) {
   response.set('Content-Type', 'application/xml');
-  response.sendFile(__dirname + '/public/sample.xml');
+  response.sendFile(__dirname + '/public/rfiSample.xml');
 });
+
+app.post('/gsmsample', function(request, response) {
+  response.set('Content-Type', 'application/xml');
+  response.sendFile(__dirname + '/public/gsmSample.xml');
+});
+
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
