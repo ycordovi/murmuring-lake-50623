@@ -7,13 +7,13 @@
           <gsmSensorDetails />
           <rfidReaderHardware>
             <mobileComputerManufacturer>Motorola</mobileComputerManufacturer>
-            <mobileComputerSerialNumber>14052521402924</mobileComputerSerialNumber>
+            <mobileComputerSerialNumber>14052521402651</mobileComputerSerialNumber>
             <mobileComputerType>MC65</mobileComputerType>
             <rfidAntennaFirmwareVersion>2.6.0.240</rfidAntennaFirmwareVersion>
             <rfidAntennaHardwareVersion>Ratel</rfidAntennaHardwareVersion>
             <rfidAntennaManufacturer>TSL UK Ltd.</rfidAntennaManufacturer>
             <rfidAntennaRegion>ETSI</rfidAntennaRegion>
-            <rfidAntennaSerialNumber>1119-01-003146</rfidAntennaSerialNumber>
+            <rfidAntennaSerialNumber>1119-01-003152</rfidAntennaSerialNumber>
             <rfidAntennaType>ETSI</rfidAntennaType>
             <rfidReaderType>DHL Mobile Reader</rfidReaderType>
           </rfidReaderHardware>
@@ -28,23 +28,23 @@
             <rfidSensorType>DHL SmartSensor RFID</rfidSensorType>
           </rfidSensorDetails>
         </dataProviderDetails>
-        <id>564844</id>
+        <id>496313</id>
         <measurements>
           <alertData>
             <memoryAlerts>
-              <id>1897552</id>
+              <id>1724525</id>
               <number>0</number>
               <seen>0</seen>
               <type>MEMORY</type>
             </memoryAlerts>
             <powerAlerts>
-              <id>1905742</id>
+              <id>1732715</id>
               <number>0</number>
               <seen>0</seen>
               <type>POWER</type>
             </powerAlerts>
             <temperatureAlerts>
-              <id>17422108</id>
+              <id>16329712</id>
               <number>0</number>
               <seen>0</seen>
               <type>TEMPERATURE</type>
@@ -54,7 +54,7 @@
               <inRow>false</inRow>
             </temperatureAlerts>
             <temperatureAlerts>
-              <id>17422109</id>
+              <id>16329713</id>
               <number>1</number>
               <seen>0</seen>
               <type>TEMPERATURE</type>
@@ -64,7 +64,7 @@
               <inRow>false</inRow>
             </temperatureAlerts>
             <temperatureAlerts>
-              <id>17422110</id>
+              <id>16329714</id>
               <number>2</number>
               <seen>0</seen>
               <type>TEMPERATURE</type>
@@ -74,7 +74,7 @@
               <inRow>false</inRow>
             </temperatureAlerts>
             <temperatureAlerts>
-              <id>17422111</id>
+              <id>16329715</id>
               <number>3</number>
               <seen>0</seen>
               <type>TEMPERATURE</type>
@@ -84,7 +84,7 @@
               <inRow>false</inRow>
             </temperatureAlerts>
             <temperatureAlerts>
-              <id>17422112</id>
+              <id>16329716</id>
               <number>4</number>
               <seen>0</seen>
               <type>TEMPERATURE</type>
@@ -94,7 +94,7 @@
               <inRow>false</inRow>
             </temperatureAlerts>
             <temperatureAlerts>
-              <id>17422113</id>
+              <id>16329717</id>
               <number>5</number>
               <seen>0</seen>
               <type>TEMPERATURE</type>
@@ -106,72 +106,65 @@
           </alertData>
           <bizSteps>
             <bizStepId>1</bizStepId>
-            <id>1918269</id>
+            <id>1744278</id>
             <location>DGF BRU</location>
-            <time>2016-03-21T18:46:27+01:00</time>
+            <time>2015-12-08T20:38:37+01:00</time>
           </bizSteps>
           <histogramData>
             <temperatureHistogram>
               <count>0</count>
-              <entryId>17524704</entryId>
+              <entryId>16432308</entryId>
               <interval>10</interval>
               <value>-10.0</value>
             </temperatureHistogram>
             <temperatureHistogram>
               <count>0</count>
-              <entryId>17524705</entryId>
+              <entryId>16432309</entryId>
               <interval>10</interval>
               <value>0.0</value>
             </temperatureHistogram>
             <temperatureHistogram>
               <count>0</count>
-              <entryId>17524706</entryId>
+              <entryId>16432310</entryId>
               <interval>10</interval>
               <value>2.0</value>
             </temperatureHistogram>
             <temperatureHistogram>
               <count>1</count>
-              <entryId>17524707</entryId>
+              <entryId>16432311</entryId>
               <interval>10</interval>
               <value>30.0</value>
             </temperatureHistogram>
             <temperatureHistogram>
               <count>0</count>
-              <entryId>17524708</entryId>
+              <entryId>16432312</entryId>
               <interval>10</interval>
               <value>40.0</value>
             </temperatureHistogram>
             <temperatureHistogram>
               <count>0</count>
-              <entryId>17524709</entryId>
+              <entryId>16432313</entryId>
               <interval>10</interval>
               <value>70.0</value>
             </temperatureHistogram>
           </histogramData>
           <historyData>
             <temperatureHistory>
-              <entryId>141600190</entryId>
+              <entryId>129575775</entryId>
               <seen>false</seen>
-              <time>2016-03-21T18:48:46+01:00</time>
+              <time>2015-12-08T20:40:22+01:00</time>
               <maxTemp>0.0</maxTemp>
-              <minTemp>19.375</minTemp>
-            </temperatureHistory>
-            <temperatureHistory>
-              <entryId>141600190</entryId>
-              <seen>false</seen>
-              <time>2016-03-21T18:58:46+01:00</time>
-              <maxTemp>0.0</maxTemp>
-              <minTemp>19.425</minTemp>
+              <minTemp>20.625</minTemp>
             </temperatureHistory>
           </historyData>
         </measurements>
-        <nextExportId>564845</nextExportId>
+        <nextExportId>496320</nextExportId>
         <shipmentDetails>
           <companyName>Brussels</companyName>
           <groupName>Thermonet</groupName>
-          <sensorId>300EFE2F94D0FB000000D24F</sensorId>
-          <shipmentId>1035231</shipmentId>
-          <shipmentNo>H6UY3285   +Y0001+</shipmentNo>
+          <sensorId>300EFE2F94D0FB000000D226</sensorId>
+          <shipmentId>946071</shipmentId>
+          <shipmentNo>H6SF1906   +Y0001+</shipmentNo>
         </shipmentDetails>
       </return>
     </ns2:requestExportDataResponse>
