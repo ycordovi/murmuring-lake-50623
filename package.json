@@ -12,7 +12,9 @@
   "dependencies": {
     "ejs": "2.4.1",
     "express": "4.13.3",
-    "xml":"~0.0.0"
+    "xml":"~0.0.0",
+    "request":"2.78.0",
+    "soap":"~0.5.1"
   },
   "repository": {
     "type": "git",
