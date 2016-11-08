@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <scrip>
+        // send request to salesforce
+        var request = {
+          salesforcetls1Request: function() {
+            var responseDiv = window.getElementbyId("response");
+            responseDiv.html = "hello world"; 
+          },
+        }  
+      </scrip>  
+  </head>
+  <body>
+    <h1>Request URL to salesforce</h1>
+    <button onclick="request.salesforcetls1Request();">Request</button>
+
+    <!--salesforce response-->
+    <h1>Response</h1>
+    <div id="response"></div>
+  </body>
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</html>

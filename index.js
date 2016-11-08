@@ -9,14 +9,17 @@ app.use(express.static(__dirname + '/public'));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+app.set('view engine', 'html');
 
-app.get('/', function(request, response) {
+/*app.get('/', function(request, response) {
   response.render('pages/index');
   
+});*/
+app.get('/', function(request, response) {
+  response.render('pages/index');  
 });
 
-app.post('/rfisample', function(request, response) {
+/*app.post('/rfisample', function(request, response) {
   response.set('Content-Type', 'application/xml');
   response.sendFile(__dirname + '/public/rfiSample.xml');
 });
@@ -24,7 +27,7 @@ app.post('/rfisample', function(request, response) {
 app.post('/gsmsample', function(request, response) {
   response.set('Content-Type', 'application/xml');
   response.sendFile(__dirname + '/public/gsmSample.xml');
-});
+});*/
 
 
 app.listen(app.get('port'), function() {
