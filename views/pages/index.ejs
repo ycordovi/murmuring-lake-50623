@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+  </head>
+  <body>
+    <h1>Request URL to salesforce</h1>
+    <button id="requestButton">Request</button>
+
+    <!--salesforce response-->
+    <h1>Response</h1>
+    <span id="response"></span>
+  </body>
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script>
+      // define events
+      $(document).ready(function() {         
+        $("#requestButton").on("click", function() {
+          request.salesforcetls1Request();
+        })
+      });
+
+      // send request to salesforce
+      var request = {
+        salesforcetls1Request: function() {
+          console.log("salesforcetls1Request");
+
+          $.ajax({url: "/salesforceRequest", success: function(response){
+            var responseSpan = $("#response");
+            responseSpan.text(response);
+          }});          
+        },
+      }  
+    </script>  
+</html>
